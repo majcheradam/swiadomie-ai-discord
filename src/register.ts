@@ -2,7 +2,7 @@ import { Command, register } from 'discord-hono'
 
 const commands = [
   new Command('hello', 'response world'),
-  new Command('name', 'response name'),
+  new Command('hello_name', 'response name'),
 ]
 
 register(
