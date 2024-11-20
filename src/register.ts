@@ -1,8 +1,9 @@
-import { Command, register } from 'discord-hono'
+import { Command, Option, register } from 'discord-hono'
 
 const commands = [
-  new Command('hello', 'response world'),
-  new Command('hello_name', 'response name'),
+  new Command('page', 'pagination').options(
+    new Option('content', 'page content').required(),
+  ),
 ]
 
 register(
