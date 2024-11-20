@@ -6,11 +6,10 @@
     "register": "bun run src/register.ts"
   },
   "dependencies": {
-    "@types/node": "^22.9.1",
-    "discord-hono": "^0.8.5",
-    "hono": "^4.6.11"
+    "discord-hono": "^0.8.5"
   },
   "devDependencies": {
+    "@types/node": "^22.9.1",
     "@cloudflare/workers-types": "^4.20241112.0",
     "discord-api-types": "^0.37.105",
     "wrangler": "^3.88.0"
